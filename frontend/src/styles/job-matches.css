@@ -1,0 +1,23 @@
+.job-matches {
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .match-card {
+    background: #ecf0f1;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .match-card h3 {
+    color: #34495e;
+  }
+  
+  .match-card p {
+    color: #666;
+  }
+  
