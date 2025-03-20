@@ -1,0 +1,37 @@
+{
+  "canisters": {
+    "backend": {
+      "main": "src/Main.mo",
+      "type": "motoko"
+    },
+    "resume_storage": {
+      "main": "src/ResumeStorage.mo",
+      "type": "motoko"
+    },
+    "job_matcher": {
+      "main": "src/JobMatcher.mo",
+      "type": "motoko"
+    },
+    "resume_matcher": {
+      "main": "src/ResumeMatcher.mo",
+      "type": "motoko"
+    }
+  },
+  "dfx": "0.15.0",
+  "defaults": {
+    "build": {
+      "packtool": ""
+    }
+  },
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:8000",
+      "type": "ephemeral"
+    },
+    "ic": {
+      "providers": ["https://ic0.app"],
+      "type": "persistent"
+    }
+  },
+  "version": 1
+}

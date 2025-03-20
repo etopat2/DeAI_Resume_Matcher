@@ -1,0 +1,23 @@
+{
+  "name": "deai-resume-matcher",
+  "version": "1.0.0",
+  "description": "Decentralized AI-powered Resume & Job Matching on ICP",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "deploy": "dfx deploy"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "tailwindcss": "^3.2.0",
+    "axios": "^1.3.0",
+    "dfx": "^0.15.0"
+  },
+  "devDependencies": {
+    "vite": "^4.2.0"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
